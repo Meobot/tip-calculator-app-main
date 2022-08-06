@@ -17,30 +17,16 @@ customTip.addEventListener("change", () => {
     calculateFinal(tip)
 })
 
-document.getElementById("five").addEventListener("click", () => {
-    let tip = calculateTip(billInput.value, 5)
-    calculateFinal(tip)
-})
-
-document.getElementById("ten").addEventListener("click", () => {
-    let tip = calculateTip(billInput.value, 10)
-    calculateFinal(tip)
-})
-
-document.getElementById("fifteen").addEventListener("click", () => {
-    let tip = calculateTip(billInput.value, 15)
-    calculateFinal(tip)
-})
-
-document.getElementById("twenty-five").addEventListener("click", () => {
-    let tip = calculateTip(billInput.value, 25)
-    calculateFinal(tip)
-})
-
-document.getElementById("fifty").addEventListener("click", () => {
-    let tip = calculateTip(billInput.value, 50)
-    calculateFinal(tip)
-})
+document.querySelectorAll(".btn").forEach( btn => {
+    btn.addEventListener("click", () => {
+        if (billInput.value && peopleInput.value) {
+            tip = calculateTip(billInput.value, btn.value)
+            calculateFinal(tip);
+        } else {
+            alert("Please fill out all required fields")
+        }
+    })
+  })
 
 resetBtn[0].addEventListener("click", () => {
     resetBtn[0].classList.remove("active")
