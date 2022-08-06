@@ -35,6 +35,8 @@ Users should be able to:
 
 ## My process
 I started with HTML, but did the CSS along the way. The Javascript came after all of the CSS was finished.
+I still struggle quite a bit with CSS, but I'm proud of how this turned out.
+
 ### Built with
 
 - Semantic HTML5 markup
