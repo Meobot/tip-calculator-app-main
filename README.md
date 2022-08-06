@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Github Page](https://meobot.github.io/tip-calculator-app-main/)
 
 ## My process
 I started with HTML, but did the CSS along the way. The Javascript came after all of the CSS was finished.
