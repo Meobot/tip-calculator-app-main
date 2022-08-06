@@ -35,7 +35,7 @@ Users should be able to:
 
 ## My process
 I started with HTML, but did the CSS along the way. The Javascript came after all of the CSS was finished.
-I still struggle quite a bit with CSS, but I'm proud of how this turned out.
+I still struggle quite a bit with CSS, and recognize that much of this code could be more efficient, but I'm proud of how this turned out regardless.
 
 ### Built with
 
