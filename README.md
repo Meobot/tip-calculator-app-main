@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor Solution]([https://your-solution-url.com](https://www.frontendmentor.io/solutions/tip-calculator-made-using-css-flexboxgrid-and-javascript-vc_989BpnK))
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/tip-calculator-made-using-css-flexboxgrid-and-javascript-vc_989BpnK)
 - Live Site URL: [Github Page](https://meobot.github.io/tip-calculator-app-main/)
 
 ## My process
