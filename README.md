@@ -30,11 +30,13 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/tip-calculator-made-using-css-flexboxgrid-and-javascript-vc_989BpnK)
+- Live Site URL: [Github Page](https://meobot.github.io/tip-calculator-app-main/)
 
 ## My process
 I started with HTML, but did the CSS along the way. The Javascript came after all of the CSS was finished.
+I still struggle quite a bit with CSS, and recognize that much of this code could be more efficient, but I'm proud of how this turned out regardless.
+
 ### Built with
 
 - Semantic HTML5 markup
