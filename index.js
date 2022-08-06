@@ -17,12 +17,30 @@ customTip.addEventListener("change", () => {
     calculateFinal(tip)
 })
 
-document.querySelectorAll(".btn").forEach( btn => {
-    btn.addEventListener("click", () => {
-      tip = btn.value;
-      calculateFinal(tip);
-    })
-  })
+document.getElementById("five").addEventListener("click", () => {
+    let tip = calculateTip(billInput.value, 5)
+    calculateFinal(tip)
+})
+
+document.getElementById("ten").addEventListener("click", () => {
+    let tip = calculateTip(billInput.value, 10)
+    calculateFinal(tip)
+})
+
+document.getElementById("fifteen").addEventListener("click", () => {
+    let tip = calculateTip(billInput.value, 15)
+    calculateFinal(tip)
+})
+
+document.getElementById("twenty-five").addEventListener("click", () => {
+    let tip = calculateTip(billInput.value, 25)
+    calculateFinal(tip)
+})
+
+document.getElementById("fifty").addEventListener("click", () => {
+    let tip = calculateTip(billInput.value, 50)
+    calculateFinal(tip)
+})
 
 resetBtn[0].addEventListener("click", () => {
     resetBtn[0].classList.remove("active")
